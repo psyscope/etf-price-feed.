@@ -1,0 +1,87 @@
+{
+  "opened": "2026-11-20",
+  "last_run_date": "2026-11-20",
+  "price_source": "psyscope/etf-price-feed. data/<TICKER>.csv adj_close",
+  "end_date": "2026-12-18",
+  "accounts": {
+    "1": {
+      "name": "SPY 10-month SMA filter",
+      "positions": {
+        "SPY": 14.4967
+      },
+      "cash": 0.03,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    },
+    "2": {
+      "name": "QQQ 50/200-day crossover",
+      "positions": {
+        "QQQ": 16.4352
+      },
+      "cash": 0.0,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    },
+    "3": {
+      "name": "SPY buy and hold",
+      "positions": {
+        "SPY": 14.4967
+      },
+      "cash": 0.03,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    },
+    "4": {
+      "name": "QQQ buy and hold",
+      "positions": {
+        "QQQ": 16.4352
+      },
+      "cash": 0.0,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    },
+    "5": {
+      "name": "ETF basket 12-month trend",
+      "positions": {
+        "SPY": 1.8121,
+        "EFA": 14.042,
+        "DBC": 39.2224
+      },
+      "cash": 6250.0,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    },
+    "6": {
+      "name": "SPY Nov-Apr seasonal",
+      "positions": {
+        "SPY": 14.4967
+      },
+      "cash": 0.03,
+      "start_equity": 10000.0,
+      "equity": 10000.0
+    }
+  },
+  "last_signals": {
+    "spy_oct_month_end": 755.72,
+    "spy_10m_sma": 725.56,
+    "qqq_sma50": 710.88,
+    "qqq_sma200": 682.07,
+    "basket_12m_return": {
+      "SPY": 0.0685,
+      "EFA": 0.0898,
+      "TLT": -0.0443,
+      "IEF": -0.0158,
+      "GLD": -0.1387,
+      "DBC": 0.3363
+    },
+    "basket_slices": {
+      "SPY": 0.125,
+      "EFA": 0.135,
+      "TLT": 0.199,
+      "IEF": 0.341,
+      "GLD": 0.086,
+      "DBC": 0.115
+    }
+  },
+  "consecutive_failures": 0
+}
